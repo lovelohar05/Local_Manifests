@@ -2,9 +2,10 @@
 <manifest>
  <!--Remote-->
  <remote name="lovelohar05" fetch="https://github.com/lovelohar05" />
-  
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ 
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="lovelohar05" revision="CherishOS-tiramisu" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="lovelohar05" revision="lineage-20.0" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="lovelohar05" revision="lineage-20.0" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="lovelohar05" revision="cherish" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="lovelohar05" revision="main" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="lovelohar05" revision="main" />
 </manifest>
