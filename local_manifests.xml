@@ -9,7 +9,8 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="lovelohar05" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="lovelohar05" revision="main" />
 
- <!-- Modification -->
+ <!-- Vendor -->
  <remove-project name="CherishOS/android_vendor_cherish" />
+ <remove-project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
  <project path="vendor/cherish" name="android_vendor_cherish" remote="lovelohar05" revision="tiramisu" />
 </manifest>
