@@ -5,7 +5,7 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="lovelohar05" revision="cherish" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="lovelohar05" revision="superior" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="lovelohar05" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="lovelohar05" revision="main" />
 </manifest>
