@@ -2,10 +2,14 @@
 <manifest>
  <!--Remote-->
  <remote name="lovelohar05" fetch="https://github.com/lovelohar05" />
+ <remote name="SuperiorOS" fetch="https://github.com/SuperiorOS/" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="lovelohar05" revision="superior" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="lovelohar05" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="lovelohar05" revision="main" />
+
+ <!-- Parts resources -->
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-20.0" />
 </manifest>
